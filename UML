@@ -1,0 +1,41 @@
+User
+----
+username: str
+password: str
+----
+post(message: str) -> None
+
+
+class User:
+  def __init__(self, username: str, password: str):
+    self.username = username
+    self.password = password
+    
+    
+Log
+----
+username: str
+part: str
+quantity: int
+----
+post(message: str) -> None
+
+
+class Log:
+  def __init__(self, username: str, part: str, quatity: int):
+    self.username = username
+    self.part = part
+    self.quantity = quantity
+
+Part
+----
+partname: str
+current_quantity: int
+----
+post(message: str) -> None
+
+class Part:
+  def __init__(self, partname: str, current_quantity: int):
+    self.partname = partname
+    self.current_quantity
+
